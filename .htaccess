@@ -12,7 +12,7 @@ RewriteBase /eltelegrafo_funebres/
 </Files>
  
 # Protect application and system files from being viewed
-RewriteRule ^(?:clases|config|controladores|vendor)\b.* index.php/$0 [L]
+RewriteRule ^(?:classes|config|controllers|vendor)\b.* index.php/$0 [L]
  
 # Allow any files or directories that exist to be displayed directly
 RewriteCond %{REQUEST_FILENAME} !-f
