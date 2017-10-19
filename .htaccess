@@ -2,7 +2,7 @@
 RewriteEngine On
  
 # Installation directory
-RewriteBase /portfolio/
+RewriteBase /eltelegrafo_funebres/
  
 # Protect hidden files from being viewed
 <Files .*>
